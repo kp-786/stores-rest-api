@@ -16,8 +16,6 @@ app.secret_key = 'kundan'
 api = Api(app)
 
 
-
-
 jwt = JWT(app, authenticate, identity)
 
 
